@@ -1,0 +1,41 @@
+.display {
+  position: relative;
+  margin-top: 20px;
+  max-height: 410px;
+}
+
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  top: 42%;
+  min-width: 20px;
+  max-width: 5%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.arrowRight {
+  right: 50px;
+}
+.arrowLeft {
+  left: 50px;
+}
+
+.displayPic {
+  height: 415px;
+  width: 100%;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.page {
+  position: absolute;
+  left: 49%;
+  bottom: 33px;
+  font-weight: 500;
+  color: $secondary-text-color;
+  font-size: 18px;
+}
+.hide {
+    display: none;
+}
+

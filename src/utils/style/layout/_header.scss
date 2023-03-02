@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 40px;
+
+  &__logo {
+    .logo {
+      width: 145px;
+      height: 100%;
+      object-fit: cover;
+      margin-top: 10px;
+    }
+  }
+
+  &__navbar {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+    font-size: 24px;
+    text-transform: capitalize;
+    &__links {
+      .home-page {
+        margin-right: 50px;
+      }
+      a {
+        color: $primary-text-color;
+        text-decoration: none;
+      }
+      a:hover,
+      .active {
+        text-decoration: underline;
+      }
+    }
+  }
+}

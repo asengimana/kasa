@@ -1,0 +1,26 @@
+.not-found {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+
+  margin-bottom: 50px;
+
+  &__content {
+    color: $primary-text-color;
+    &__title {
+      font-size: 288px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    &__text {
+      font-size: 36px;
+      margin-bottom: 150px;
+    }
+  }
+
+  &__link {
+    color: $primary-text-color;
+    font-size: 18px;
+  }
+}
